@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@300&display=swap');
+
+*{
+  font-family: 'Kanit', sans-serif;
+}
+
+body{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sign-in{
+  border: 1px solid;
+  border-color: #4e692d;
+  background-color: #4e692d;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: black;
+}
+
+#logo{
+  color: white;
+  padding-left: 25px;
+  font-size: 35px;
+}
+
+.navigation{
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation ul li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 25px;
+  font-size: 25px;
+}
+
+.navigation ul li a{
+  text-decoration: none;
+  color: #4e692d;
+}
+
+.sections{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.section-1{
+  width: 400px;
+  height: 400px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.section-1 h2{
+  color: rgb(0, 0, 0);
+}
+
+.section-1 p{
+  color: white;
+}
+
+.section-2{
+  width: 400px;
+  height: 300px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 30px;
+  color: white;
+}
+
+.section-2 button{
+  font-size: 30px;
+  background-color: #4e692d;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+
+.section-3{
+  width: 400px;
+  height: 500px;
+  background-color: white;
+}
+
+.section-3 h3{
+  text-align: center;
+  padding: 0;
+  margin: 0%;
+}
+
+#featured{
+  width: 100%;
+}
